@@ -125,7 +125,7 @@ This project is a LINE Bot that uses the YOLOv7 model for object detection. User
   
 7. Start the Flask application:  
    Run the following command to start the app:  
-   python app.py  
+   python app-en.py  
      
      
 8. Set up the LINE Bot Webhook:  

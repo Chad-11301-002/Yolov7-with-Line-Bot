@@ -25,32 +25,32 @@
 
 
 2. 安裝相依套件：
-使用 pip 安裝所需的 Python 套件：  
-  pip install -r requirements.txt
+   使用 pip 安裝所需的 Python 套件：  
+   pip install -r requirements.txt
   
 
 3. 設定環境變數：
-建立一個 .env 檔案，並填入下列環境變數：
-  LINE_CHANNEL_ACCESS_TOKEN=你的LINE_CHANNEL_ACCESS_TOKEN
-  LINE_CHANNEL_SECRET=你的LINE_CHANNEL_SECRET
-  IMGUR_CLIENT_ID=你的IMGUR_CLIENT_ID
-  YOLO_PATH=你的YOLOv7程式路徑
-  WEIGHTS_PATH=你的YOLOv7模型權重路徑
-  DB_PATH=你的資料庫路徑
+   建立一個 .env 檔案，並填入下列環境變數：
+   LINE_CHANNEL_ACCESS_TOKEN=你的LINE_CHANNEL_ACCESS_TOKEN
+   LINE_CHANNEL_SECRET=你的LINE_CHANNEL_SECRET
+   IMGUR_CLIENT_ID=你的IMGUR_CLIENT_ID
+   YOLO_PATH=你的YOLOv7程式路徑
+   WEIGHTS_PATH=你的YOLOv7模型權重路徑
+   DB_PATH=你的資料庫路徑
 
 
 4. 建立資料庫：
-將包含食物熱量資訊的 foods.db 放入資料庫目錄，並確保其結構符合程式要求。
+   將包含食物熱量資訊的 foods.db 放入資料庫目錄，並確保其結構符合程式要求。
 
 
 5. 啟動 Flask 應用程式：
-使用下列指令啟動應用程式：
-  python app-cn.py
+   使用下列指令啟動應用程式：
+   python app-cn.py
 
 
 6. 設置 LINE Bot Webhook：
-在 LINE Developers 中設置 Webhook URL，格式為：
-  https://你的伺服器域名/callback
+   在 LINE Developers 中設置 Webhook URL，格式為：
+   https://你的伺服器域名/callback
 
 
 ##YOLOv7 使用方式
@@ -103,32 +103,32 @@ This project is a LINE Bot that uses the YOLOv7 model for object detection. User
 
 
 2. Install dependencies:
-  Use pip to install the required Python packages:
-  pip install -r requirements.txt
+   Use pip to install the required Python packages:
+   pip install -r requirements.txt
 
 
-3.Set up environment variables:
-  Create a .env file and add the following environment variables:
-    LINE_CHANNEL_ACCESS_TOKEN=your_LINE_CHANNEL_ACCESS_TOKEN
-    LINE_CHANNEL_SECRET=your_LINE_CHANNEL_SECRET
-    IMGUR_CLIENT_ID=your_IMGUR_CLIENT_ID
-    YOLO_PATH=your_YOLOv7_script_path
-    WEIGHTS_PATH=your_YOLOv7_model_weights_path
-    DB_PATH=your_database_path
+4. Set up environment variables:
+   Create a .env file and add the following environment variables:
+   LINE_CHANNEL_ACCESS_TOKEN=your_LINE_CHANNEL_ACCESS_TOKEN
+   LINE_CHANNEL_SECRET=your_LINE_CHANNEL_SECRET
+   IMGUR_CLIENT_ID=your_IMGUR_CLIENT_ID
+   YOLO_PATH=your_YOLOv7_script_path
+   WEIGHTS_PATH=your_YOLOv7_model_weights_path
+   DB_PATH=your_database_path
 
     
-4. Set up the database: 
+5. Set up the database: 
    Place the foods.db containing food calorie information in the database directory, ensuring it has the necessary structure.
    
 
-5. Start the Flask application:
-  Run the following command to start the app:
-    python app.py
+6. Start the Flask application:
+   Run the following command to start the app:
+   python app.py
    
    
-6. Set up the LINE Bot Webhook:
-  In LINE Developers, configure the Webhook URL in the following format:
-  https://your-server-domain/callback
+7. Set up the LINE Bot Webhook:
+   In LINE Developers, configure the Webhook URL in the following format:
+   https://your-server-domain/callback
 
 
 ##YOLOv7 Usage

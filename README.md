@@ -20,7 +20,7 @@
 ## 安裝步驟
 
 1. **克隆此專案到本地端**：
-   git clone https://github.com/Chad-11301-002/Yolov7-with-Line-Bot.git
+   git clone https://github.com/Chad-11301-002/Yolov7-with-Line-Bot.git  
    cd yolov7-linebot
 
 
@@ -99,7 +99,7 @@ This project is a LINE Bot that uses the YOLOv7 model for object detection. User
 ## Installation Steps
 
 1. **Clone the repository**:
-   git clone https://github.com/Chad-11301-002/Yolov7-with-Line-Bot.git
+   git clone https://github.com/Chad-11301-002/Yolov7-with-Line-Bot.git  
    cd yolov7-linebot
 
 
